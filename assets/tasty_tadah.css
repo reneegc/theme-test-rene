@@ -46,6 +46,15 @@
     padding: 0 50px;
 }
 
+  .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
 @media (max-width: 490px) {
     .tasty_tadah{
       min-height:300px;
