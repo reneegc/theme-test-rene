@@ -19,12 +19,18 @@
       "type": "tadah_experience",
       "settings": {
       }
+    },
+    "Fresh": {
+      "type": "tadah_fresh",
+      "settings": {
+      }
     }
   },
   "order": [
     "tadah_nav",
     "Hero",
     "Taste",
-    "Experience"
+    "Experience",
+    "Fresh"
   ]
 }
