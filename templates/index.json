@@ -9,10 +9,16 @@
       "type": "tadah_hero",
       "settings": {
       }
+    },
+    "Taste": {
+      "type": "tadah_taste",
+      "settings": {
+      }
     }
   },
   "order": [
     "tadah_nav",
-    "Hero"
+    "Hero",
+    "Taste"
   ]
 }
