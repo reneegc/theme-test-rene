@@ -52,6 +52,7 @@
   }
 
   .swiper-slide {
+    max-width: 33% !important;
     text-align: center;
     font-size: 18px;
     background: #fff;
