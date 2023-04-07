@@ -1,10 +1,5 @@
 {
   "sections": {
-    "tadah_nav": {
-      "type": "tadah_nav",
-      "settings": {
-      }
-    },
     "Hero": {
       "type": "tadah_hero",
       "settings": {
@@ -47,7 +42,6 @@
     }
   },
   "order": [
-    "tadah_nav",
     "Hero",
     "Taste",
     "Experience",
