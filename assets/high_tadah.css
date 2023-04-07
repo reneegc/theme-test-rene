@@ -128,6 +128,7 @@
     }
     .high_tadah .sharktank_img{
         min-height: 380px;
+        min-width: 100%;
     }
     .high_tadah .logo_mobile_bagde{
         display: flex;
