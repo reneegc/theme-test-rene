@@ -9,7 +9,13 @@ btnBurguer.addEventListener("click", ()=> {
 equisRemove.addEventListener("click", ()=> {
     navBarMobile.classList.remove("mobile_nav_bar_active")
 })
-
+ var swiper = new Swiper(".mySwiper", {
+      spaceBetween: 30,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    });
 function getFocusableElements(container) {
   return Array.from(
     container.querySelectorAll(
