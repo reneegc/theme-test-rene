@@ -29,6 +29,11 @@
       "type": "tadah_tasty",
       "settings": {
       }
+    },
+    "Variety": {
+      "type": "tadah_variety",
+      "settings": {
+      }
     }
   },
   "order": [
@@ -37,6 +42,7 @@
     "Taste",
     "Experience",
     "Fresh",
-    "Tasty"
+    "Tasty",
+    "Variety"
   ]
 }
