@@ -40,10 +40,18 @@
             </div>
           </div>
         </div>
-        
+        <div class="swiper-pagination"></div>
       </div>
     </section>
   <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+   var swiper = new Swiper(".mySwiper", {
+      spaceBetween: 30,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    });
 {% schema %}
   {
     "name": "Section Tasty",
