@@ -45,6 +45,7 @@
 
 .tasty_tadah .swiper-wrapper{
   justify-content: center !important;
+  transition-timing-function: linear;
 }
 .tasty_tadah .swiper {
     width: 100%;
