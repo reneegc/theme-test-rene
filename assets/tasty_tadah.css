@@ -3,7 +3,6 @@
     flex-direction: column;
     align-items: center;
     padding-top: 69px;
-    overflow: hidden;
     min-height:561px;
 }
 
@@ -33,8 +32,6 @@
 }
 
 .tasty_tadah .content_description_tasty{
-    display: flex;
-    justify-content: space-between;
     margin-top: 54px;
 }
 
