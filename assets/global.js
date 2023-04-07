@@ -18,32 +18,27 @@ var swiper = new Swiper(".mySwiper", {
         el: ".swiper-pagination",
         clickable: true,
       },
+      breakpoints:{
+        620: {
+          slidesPreView: 1,
+          spaceBetween: 20,
+        },
+        680: {
+          slidesPreView: 2,
+          spaceBetween: 40,
+        },
+        920: {
+          slidesPreView: 3,
+          spaceBetween: 40,
+        },
+        1240: {
+          slidesPreView: 1,
+          spaceBetween: 50,
+        },
+      }
     });
 
- // var swiper = new Swiper(".mySwiper", {
- //      spaceBetween: 30,
- //      pagination: {
- //        el: ".swiper-pagination",
- //        clickable: true,
- //      },
- //      breakpoints:{
- //        620: {
- //          slidesPreView: 1,
- //          spaceBetween: 20,
- //        },
- //        680: {
- //          slidesPreView: 2,
- //          spaceBetween: 40,
- //        },
- //        920: {
- //          slidesPreView: 3,
- //          spaceBetween: 40,
- //        },
- //        1240: {
- //          slidesPreView: 1,
- //          spaceBetween: 50,
- //        },
- //      }
+ // 
  //    });
 function getFocusableElements(container) {
   return Array.from(
