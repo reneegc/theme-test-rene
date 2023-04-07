@@ -32,6 +32,7 @@
 }
 
 .tasty_tadah .content_description_tasty{
+    display: flex;
     margin-top: 54px;
 }
 
