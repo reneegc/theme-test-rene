@@ -39,6 +39,11 @@
       "type": "tadah_chick",
       "settings": {
       }
+    },
+    "High": {
+      "type": "tadah_high",
+      "settings": {
+      }
     }
   },
   "order": [
@@ -49,6 +54,7 @@
     "Fresh",
     "Tasty",
     "Variety",
-    "Chick"
+    "Chick",
+    "High"
   ]
 }
