@@ -50,6 +50,9 @@
 }
 
 @media (max-width: 490px) {
+    .tasty_tadah{
+      min-height:300px;
+    }
     .tasty_tadah .title_tasty{
         font-size: 30px;
     }
