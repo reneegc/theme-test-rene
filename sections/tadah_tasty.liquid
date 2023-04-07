@@ -11,7 +11,7 @@
         <img src="https://cdn.shopify.com/s/files/1/0746/6408/3772/files/Star1.png?v=1680892247" alt="Star1" class="stars_items" />
       </div>
       <div class="swiper mySwiper">
-        <div class="content_description_tasty">
+        <div class="content_description_tasty swiper-wrapper">
           <div class="description_tasty swiper-slide">
             <img src="https://cdn.shopify.com/s/files/1/0746/6408/3772/files/red_halo1.png?v=1680892247" alt="halo_img" class="aura_tasty" />
             <div class="text_description_tasty">
@@ -43,16 +43,18 @@
         <div class="swiper-pagination"></div>
       </div>
     </section>
- <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-
-var swiper = new Swiper(".mySwiper", {
-      slidesPerView: 3,
-      spaceBetween: 30,
-      pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-      },
-    });
+   <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 3,
+            spaceBetween: 30,
+            pagination: {
+              el: ".swiper-pagination",
+              clickable: true,
+            },
+          });
+      
+    </script>
 {% schema %}
   {
     "name": "Section Tasty",
