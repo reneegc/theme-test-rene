@@ -14,11 +14,17 @@
       "type": "tadah_taste",
       "settings": {
       }
+    },
+    "Experience": {
+      "type": "tadah_experience",
+      "settings": {
+      }
     }
   },
   "order": [
     "tadah_nav",
     "Hero",
-    "Taste"
+    "Taste",
+    "Experience"
   ]
 }
