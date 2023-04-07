@@ -24,6 +24,11 @@
       "type": "tadah_fresh",
       "settings": {
       }
+    },
+    "Tasty": {
+      "type": "tadah_tasty",
+      "settings": {
+      }
     }
   },
   "order": [
@@ -31,6 +36,7 @@
     "Hero",
     "Taste",
     "Experience",
-    "Fresh"
+    "Fresh",
+    "Tasty"
   ]
 }
