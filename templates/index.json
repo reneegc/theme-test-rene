@@ -4,9 +4,15 @@
       "type": "tadah_nav",
       "settings": {
       }
+    },
+    "Hero": {
+      "type": "tadah_hero",
+      "settings": {
+      }
     }
   },
   "order": [
-    "tadah_nav"
+    "tadah_nav",
+    "Hero"
   ]
 }
