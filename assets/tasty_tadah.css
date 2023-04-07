@@ -46,12 +46,12 @@
     padding: 0 50px;
 }
 
-  .swiper {
+.tasty_tadah .swiper {
     width: 100%;
     height: 300px !important;
   }
 
-  .swiper-slide {
+.tasty_tadah .swiper-slide {
     text-align: center;
     font-size: 18px;
     background: #fff;
