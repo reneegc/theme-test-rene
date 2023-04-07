@@ -34,6 +34,11 @@
       "type": "tadah_variety",
       "settings": {
       }
+    },
+    "Chick": {
+      "type": "tadah_chick",
+      "settings": {
+      }
     }
   },
   "order": [
@@ -43,6 +48,7 @@
     "Experience",
     "Fresh",
     "Tasty",
-    "Variety"
+    "Variety",
+    "Chick"
   ]
 }
