@@ -9,9 +9,13 @@ btnBurguer.addEventListener("click", ()=> {
 equisRemove.addEventListener("click", ()=> {
     navBarMobile.classList.remove("mobile_nav_bar_active")
 })
-var swiper = new Swiper(".mySwiper", {
+ var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 3,
+      spaceBetween: 30,
       pagination: {
         el: ".swiper-pagination",
+        clickable: true,
+        loop: true;
       },
       breakpoints:{
         620: {
