@@ -42,9 +42,7 @@
     align-items: center;
 }
 
-.tasty_tadah .description_tasty:nth-child(2){
-    padding: 0 50px;
-}
+
 .tasty_tadah .swiper-wrapper{
   justify-content: center !important;
 }
