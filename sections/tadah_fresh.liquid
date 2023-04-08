@@ -1,36 +1,45 @@
 {{ 'fresh_tadah.css' | asset_url | stylesheet_tag }}
 <!-- *********** fresh_tadah ********* -->
 
-    <section class="fresh_tadah global_style">
-      <div class="content_fresh">
-        <div class="item_fresh_tadah">
-          <img src="https://cdn.shopify.com/s/files/1/0746/6408/3772/files/image5.png?v=1680892328" alt="image_fresh" class="image_fresh" />
-        </div>
-        <div class="item_fresh_tadah">
-          <h2 class="title_fresh">{{ section.settings.title-fresh }}</h2>
-          <p class="text_fresh">
-            {{ section.settings.text-fresh }}
-          </p>
-        </div>
-      </div>
-    </section>
+<section class="fresh_tadah global_style">
+  <div class="content_fresh">
+    <div class="item_fresh_tadah {{ block.settings.image | image_url: width: 2048 | image_tag }}">
+      <img
+        src="https://cdn.shopify.com/s/files/1/0746/6408/3772/files/image5.png?v=1680892328"
+        alt="image_fresh"
+        class="image_fresh"
+      >
+    </div>
+    <div class="item_fresh_tadah">
+      <h2 class="title_fresh">{{ section.settings.title-fresh }}</h2>
+      <p class="text_fresh">
+        {{ section.settings.text-fresh }}
+      </p>
+    </div>
+  </div>
+</section>
 
 {% schema %}
-  {
-    "name": "Section Fresh",
-    "settings": [
-      {
-        "type": "text",
-        "id" : "title-fresh",
-        "label" : "Title"
-      },
-      {
-        "type": "text",
-        "id" : "text-fresh",
-        "label" : "Text"
-      }
-    ]
-  }
+{
+  "name": "Section Fresh",
+  "settings": [
+    {
+      "type": "text",
+      "id" : "title-fresh",
+      "label" : "Title"
+    },
+    {
+      "type": "text",
+      "id" : "text-fresh",
+      "label" : "Text"
+    },
+    {
+       "type": "image_picker",
+       "id": "image",
+       "label": "Image"
+     }
+  ]
+}
 {% endschema %}
 
 {% stylesheet %}
