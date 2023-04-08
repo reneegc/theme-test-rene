@@ -37,6 +37,10 @@
     "Variety": {
       "type": "tadah_variety",
       "settings": {
+        "title-variety": "",
+        "text-variety": "",
+        "link-variety": "",
+        "image-variery": "shopify:\/\/shop_images\/Maskgroup.png"
       }
     },
     "Chick": {
