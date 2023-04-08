@@ -7,7 +7,9 @@
     {% case block.type %}
       {% when 'slide' %}
         <div class="item_experience_tadah" {{ block.shopify_attributes }}>
-          {{ block.settings.image | image_url: width: 2048 | image_tag }}
+          <a href="#" class="banner_experience">
+            {{ block.settings.image | image_url: width: 2048 | image_tag }}
+          </a>
         </div>
       <h3 class="title_experience">Lemon Garlic Hummus</h3>
       <a href="#" class="link_experience">EXPERIENCE THE FLAVOR</a>
