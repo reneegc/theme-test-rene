@@ -3,13 +3,10 @@
 
     <section class="high_tadah global_style">
       <div class="content_high">
+        {% for block in section.blocks %}
         <div class="item_high_content">
           <div class="banner_high">
-            <img
-              src="https://cdn.shopify.com/s/files/1/0746/6408/3772/files/veggies_img.png?v=1680892324"
-              alt="vaggie_high_image"
-              class="vaggie_high_image"
-            />
+                  {{ section.blocks.image | image_url: width: number | image_tag:  class: 'vaggie_high_image', loading: 'lazy' }}
           </div>
           <div class="banner_high">
             <h3 class="title_banner_high">High quality ingredients</h3>
@@ -28,8 +25,11 @@
               ingredients.
             </p>
           </div>
-        </div>
-        <div class="item_high_content">
+        </div>  
+        {% endfor %}
+      </div>
+      
+<!--         <div class="item_high_content">
           <div class="banner_high_2">
             <h3 class="title_banner_high text_none">
               A meal packed with plant-based protein
@@ -80,14 +80,28 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
     </section>
 
 
 {% schema %}
   {
     "name": "Section High",
-    "settings": []
+    "settings": [
+    ],
+    "blocks": [
+      {
+        "type": "image",
+        "name": "Image Block",
+        "settings" : [
+          {
+            "type": "image_picker",
+            "id" : "image",
+            "label" : "Image"
+          }
+        ]
+      }
+    ]
   }
 {% endschema %}
 
