@@ -47,7 +47,12 @@
     background-color: #E12843;
     max-width: 285px;
 }
-
+.hero_tadah .try_hero:hover,
+.hero_tadah .try_hero_mobile:hover{
+  background-color: #000;
+  color: #fff;
+  transition: all .8s;
+}
 .hero_tadah .try_hero_mobile{
     display: none;
 }
