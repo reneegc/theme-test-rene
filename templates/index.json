@@ -11,6 +11,8 @@
     "Taste": {
       "type": "tadah_taste",
       "settings": {
+        "title-Taste": "Taste ALL the flavors.",
+        "text-taste": "We aim to make your tastebuds feel some type of way. Each wrap starts with our authentic freshly made falafel patty and is then smothered in one of our award winning spreads before being hand rolled in a soft chewy whole-wheat tortilla."
       }
     },
     "Experience": {
