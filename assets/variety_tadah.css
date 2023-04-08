@@ -81,6 +81,10 @@
 }
 
 @media (max-width: 490px) {
+  .variety_tadah .content_variety{ 
+        padding: 0;
+
+    }
     .variety_tadah .title_variety{
         font-size: 30px;
     }
