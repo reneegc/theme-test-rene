@@ -2,15 +2,15 @@
 <!-- *********** experience_tadah ********* -->
 
 <section class="experience_tadah global_style">
+  <div class="experience_content">
   {% for block in section.blocks %}
     {% case block.type %}
       {% when 'slide' %}
-        <div class="slide" {{ block.shopify_attributes }}>
+        <div class="item_experience_tadah" {{ block.shopify_attributes }}>
           {{ block.settings.image | image_url: width: 2048 | image_tag }}
         </div>
     {% endcase %}
   {% endfor %}
-  <div class="experience_content">
     <div class="item_experience_tadah">
       <a href="#" class="banner_experience">
         <img
