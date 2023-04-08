@@ -45,6 +45,37 @@
     },
     "Chick": {
       "type": "tadah_chick",
+      "blocks": {
+        "316982f9-d720-4f74-a3df-74741891d8e0": {
+          "type": "slide",
+          "settings": {
+            "text-slide": "\"This feels really fresh like it was made a minute ago.\"",
+            "logo-slide": "shopify:\/\/shop_images\/sharktank_logo_1.png",
+            "author-slide": "- Daniel Lubetzky"
+          }
+        },
+        "d972e7a9-8dd4-420b-a175-6250785c9430": {
+          "type": "slide",
+          "settings": {
+            "text-slide": "Even if you’re far away from your favorite falafel stand, you can get your fix in a matter of minutes.”",
+            "logo-slide": "shopify:\/\/shop_images\/entrepreneur_logo_1.png",
+            "author-slide": "- Brian Kateman"
+          }
+        },
+        "0775403e-e289-49ba-8dd3-4972dfc79d49": {
+          "type": "slide",
+          "settings": {
+            "text-slide": "“Over 25% of the business’s profits go to organizations that are actively engaged in social change”",
+            "logo-slide": "shopify:\/\/shop_images\/heavy_logo_1.png",
+            "author-slide": "- S.M. Walsh"
+          }
+        }
+      },
+      "block_order": [
+        "316982f9-d720-4f74-a3df-74741891d8e0",
+        "d972e7a9-8dd4-420b-a175-6250785c9430",
+        "0775403e-e289-49ba-8dd3-4972dfc79d49"
+      ],
       "settings": {
         "title-chick": "‘Chick’ out what people are saying"
       }
