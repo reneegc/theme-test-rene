@@ -4,7 +4,7 @@
     <section class="hero_tadah">
       <div class="content_tadah_hero">
         <h1 class="title_hero">
-          Fresh Mediterranean street wraps falaFULL of flavor 
+          {{ section.settings.title-Hero }}
         </h1>
         <a href="#" class="try_hero">
           Try tadah!
@@ -22,11 +22,17 @@
     </section>
 
 {% schema %}
-  {
-    "name": "Hero",
-    "settings": []
-  }
-{% endschema %}
+{
+  "name": "Section Hero",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title-Hero",
+      "label": "Title"
+    }
+  ]
+}
+  {% endschema %}
 
 {% stylesheet %}
 {% endstylesheet %}
