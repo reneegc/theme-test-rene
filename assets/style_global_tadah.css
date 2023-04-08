@@ -15,7 +15,6 @@ a{
 }
 
 a:hover{
-  background-color: #F47D34 !important;
-  color: #fff !important;
-  transition: all .8s;
+  color: #E12843 !important;
+  transition: all .9s;
 }
