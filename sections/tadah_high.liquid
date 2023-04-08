@@ -55,13 +55,9 @@
           />
         </div>
         <div class="banner_high_3">
-          <h3 class="title_banner_high change">Featured in Eat This, Not That</h3>
+          <h3 class="title_banner_high change">{{ section.settings['title-high-block-three'] }}</h3>
           <p class="text_banner_high">
-            "This product is rich in fiber and fully plant-based, while being
-            made from whole food ingredients. Rich in fiber, protein, and
-            healthy fat, it will keep you satisfied as a meal and give you all
-            the decadent flavors you crave when dining out!" <br />
-            <strong> - Amy Shapiro MS, RD, CDN </strong>
+            {{ section.settings['text-high-block-three'] }}
           </p>
           <div class="logo_mobile_bagde">
             <img src="https://cdn.shopify.com/s/files/1/0746/6408/3772/files/Badge_mobile.png?v=1680892247" alt="badge_img" class="bagde_mobile_img">
@@ -80,32 +76,42 @@
     {
       "type":"text",
       "id": "title-high",
-      "label": "Title"
+      "label": "Title Block one"
     },
     {
       "type":"text",
       "id": "text-high-block-one",
-      "label": "Text"
+      "label": "Text Block one"
     },    
     {
       "type":"text",
       "id": "text-high-mobile",
-      "label": "Text Mobile"
+      "label": "Text Mobile one"
     },
     {
       "type":"text",
       "id": "title-high-block-two",
-      "label": "Title"
+      "label": "Title Block Two"
     },
     {
       "type":"text",
       "id": "title-high-block-two-mobile",
-      "label": "Title Mobile"
+      "label": "Title Mobile Block Two"
     },
     {
       "type":"text",
       "id": "text-high-block-two",
-      "label": "Text Mobile"
+      "label": "Text Block Two"
+    },
+     {
+      "type":"text",
+      "id": "title-high-block-three",
+      "label": "Title Block three"
+    },
+    {
+      "type":"text",
+      "id": "text-high-block-three",
+      "label": "Text Block three"
     }
   ]
 }
