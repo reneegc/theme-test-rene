@@ -11,7 +11,7 @@
             <div class="text_description_chick">
               {{ block.settings['text-slide'] }}
               <br>
-              <span class="autor_description">- Daniel Lubetzky</span>
+              <span class="autor_description">{{ block.settings['author-slide'] }}</span>
             </div>
             <div class="img_performance_content separator">
               {{ block.settings['logo-slide'] | image_url: width: number | image_tag: class:'performance_image', loading: 'lazy' }}
@@ -132,6 +132,11 @@
          "type" :"image_picker",
          "id" : "logo-slide",
          "label" : "Logo Slide"
+       },
+       {
+         "type" :"text",
+         "id" : "author-slide",
+         "label" : "Author"
        }
      ]
    }
