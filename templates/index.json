@@ -3,7 +3,9 @@
     "Hero": {
       "type": "tadah_hero",
       "settings": {
-        "title-Hero": "Fresh  Mediterranean  street wraps  falaFULL of flavor"
+        "title-Hero": "Fresh  Mediterranean  street wraps  falaFULL of flavor",
+        "link": "TRY TADAH!",
+        "link-mobile": "TRY THE VARIETY PACK"
       }
     },
     "Taste": {
