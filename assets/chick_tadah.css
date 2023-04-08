@@ -58,7 +58,7 @@
 }
 .chick_tadah .swiper-wrapper{
   justify-content: center !important;
-  transform: translate3d(0px, 0px, 0px) !important;
+  transform: translate3d(20px) !important;
 }
 .chick_tadah .swiper {
     width: 100%;
