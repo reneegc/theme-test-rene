@@ -23,6 +23,7 @@
     "Tasty": {
       "type": "tadah_tasty",
       "settings": {
+        "title": "RENE"
       }
     },
     "Variety": {
