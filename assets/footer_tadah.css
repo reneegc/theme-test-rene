@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     max-height: 477px;
-    position: relative;
+    position: absolute;
     z-index: -1;
     background: url(https://cdn.shopify.com/s/files/1/0746/6408/3772/files/tadah_logo_transparent.png?v=1680892251) no-repeat 55% bottom, url(https://cdn.shopify.com/s/files/1/0746/6408/3772/files/chickpeas_bg_1.png?v=1680892257) no-repeat bottom, #F47D34;
 
