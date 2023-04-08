@@ -3,72 +3,78 @@
 
 <section class="high_tadah global_style">
   <div class="content_high">
-    <div class="item_high_content">
-      <div class="banner_high">
-        {{
-          section.settings['image-high']
-          | image_url: width: number
-          | image_tag: class: 'vaggie_high_image', loading: 'lazy'
-        }}
+      <div class="item_high_content">
+        <div class="banner_high">
+          <img
+              src="https://cdn.shopify.com/s/files/1/0746/6408/3772/files/veggies_img.png?v=1680892324"
+              alt="vaggie_high_image"
+              class="vaggie_high_image"
+            />
+        </div>
+        <div class="banner_high">
+          <h3 class="title_banner_high">{{ section.settings['title-high'] }}</h3>
+          <p class="text_banner_high text_none">
+            {{ section.settings['text-high'] }}
+          </p>
+          <p class="text_mobile_high">
+            {{ section.settings['text-high-mobile'] }}
+          </p>
+        </div>
       </div>
-      <div class="banner_high">
-        <h3 class="title_banner_high">{{ section.settings['title-high'] }}</h3>
-        <p class="text_banner_high text_none">
-          {{ section.settings['text-high'] }}
-        </p>
-        <p class="text_mobile_high">
-          {{ section.settings['text-high-mobile'] }}
-        </p>
+      <div class="item_high_content">
+        <div class="banner_high_2">
+          <h3 class="title_banner_high text_none">
+            A meal packed with plant-based protein
+          </h3>
+          <h3 class="title_mobile_high">100% plant-based protein</h3>
+          <p class="text_banner_high">
+            At 7.5 oz our wraps are the largest in the land. With 13-16g of
+            plant-based protein per serving plus 11g of fiber, our falafels
+            will keep you feeling full and satisfied for longer. You won’t
+            need another wrap – you’ll want another wrap. Take that you puny
+            snack wraps.
+          </p>
+        </div>
+        <div class="banner_high_2">
+          <img
+            src="https://cdn.shopify.com/s/files/1/0746/6408/3772/files/patty_img.png?v=1680892304"
+            alt="banner_img_high"
+            class="banner_img_high"
+          />
+        </div>
       </div>
-    </div>
-    <div class="item_high_content">
-      <div class="banner_high_2">
-        <h3 class="title_banner_high text_none">
-          {{ section.settings['title-high2'] }}
-        </h3>
-        <h3 class="title_mobile_high">{{ section.settings['title-high2-mobile'] }}</h3>
-        <p class="text_banner_high">
-          {{ section.settings['text-high2'] }}
-        </p>
-      </div>
-      <div class="banner_high_2">
-        {{
-          section.settings['image-high2']
-          | image_url: width: number
-          | image_tag: class: 'banner_img_high', loading: 'lazy'
-        }}
-      </div>
-    </div>
-    <div class="item_high_content">
-      <div class="banner_mobile_shark">
-        {{
-          section.settings['image-high3-mobile']
-          | image_url: width: number
-          | image_tag: class: 'sharktank_img', loading: 'lazy'
-        }}
-      </div>
-      <div class="banner_high_3">
-        {{
-          section.settings['image-high3']
-          | image_url: width: number
-          | image_tag: class: 'badge_image"', loading: 'lazy'
-        }}
-      </div>
-      <div class="banner_high_3">
-        <h3 class="title_banner_high change">{{ section.settings['title-high3'] }}</h3>
-        <p class="text_banner_high">
-          {{ section.settings['text-high3'] }}
-        </p>
-        <div class="logo_mobile_bagde">
-          {{
-            section.settings['image-high3-mobile']
-            | image_url: width: number
-            | image_tag: class: 'bagde_mobile_img', loading: 'lazy'
-          }}
+      <div class="item_high_content">
+        <div class="banner_mobile_shark">
+          <img
+            src="https://cdn.shopify.com/s/files/1/0746/6408/3772/files/sharktank_img_1.png?v=1680892298"
+            alt="sharktank_img"
+            class="sharktank_img"
+          />
+        </div>
+        <div class="banner_high_3">
+          <img
+            src="https://cdn.shopify.com/s/files/1/0746/6408/3772/files/Badge.png?v=1680892262"
+            class="badge_image_high"
+            alt="badge_image"
+          />
+        </div>
+        <div class="banner_high_3">
+          <h3 class="title_banner_high change">Featured in Eat This, Not That</h3>
+          <p class="text_banner_high">
+            "This product is rich in fiber and fully plant-based, while being
+            made from whole food ingredients. Rich in fiber, protein, and
+            healthy fat, it will keep you satisfied as a meal and give you all
+            the decadent flavors you crave when dining out!" <br />
+            <strong> - Amy Shapiro MS, RD, CDN </strong>
+          </p>
+          <div class="logo_mobile_bagde">
+            <img src="https://cdn.shopify.com/s/files/1/0746/6408/3772/files/Badge_mobile.png?v=1680892247" alt="badge_img" class="bagde_mobile_img">
+          </div>
         </div>
       </div>
     </div>
-  </div>
+ 
+      </div>
 </section>
 
 {% schema %}
@@ -79,16 +85,6 @@
       "type":"text",
       "id": "title-high",
       "label": "Title"
-    },
-    {
-      "type":"text",
-      "id": "text-high",
-      "label": "Text"
-    },
-    {
-      "type":"text",
-      "id": "text-high-mobile",
-      "label": "Text Mobile"
     }
   ]
 }
