@@ -14,11 +14,12 @@
                 {{ block.settings.text-high  }}
             </p>
             <p class="text_mobile_high">
-                {{ block.settings.text-high-mobile  }}
+                {{ block.settings.text-high-mobile }}
             </p>
           </div>
         </div>  
         {% endfor %}
+        
       </div>
       
 <!--         <div class="item_high_content">
@@ -84,7 +85,63 @@
     "blocks": [
       {
         "type": "image",
-        "name": "Image Block",
+        "name": "Block One",
+        "settings" : [
+          {
+            "type": "image_picker",
+            "id" : "image-high",
+            "label" : "Image"
+          },
+          {
+            "type": "text",
+            "id" : "title-high",
+            "label" : "Title"
+          },
+          {
+            "type": "text",
+            "id" : "text-high",
+            "label" : "Text"
+          },
+          {
+            "type": "text",
+            "id" : "text-high-mobile",
+            "label" : "Text Mobile"
+          }
+        ]
+      }
+    ],
+    "blocks": [
+      {
+        "type": "image",
+        "name": "Block Two",
+        "settings" : [
+          {
+            "type": "image_picker",
+            "id" : "image-high",
+            "label" : "Image"
+          },
+          {
+            "type": "text",
+            "id" : "title-high",
+            "label" : "Title"
+          },
+          {
+            "type": "text",
+            "id" : "text-high",
+            "label" : "Text"
+          },
+          {
+            "type": "text",
+            "id" : "text-high-mobile",
+            "label" : "Text Mobile"
+          }
+        ]
+      }
+    ],
+        "blocks": [
+      {
+        "type": "image",
+        "name": "Block Tree",
         "settings" : [
           {
             "type": "image_picker",
@@ -109,6 +166,7 @@
         ]
       }
     ]
+    
   }
 {% endschema %}
 
