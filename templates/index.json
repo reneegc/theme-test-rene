@@ -52,8 +52,8 @@
     "High": {
       "type": "tadah_high",
       "blocks": {
-        "a957d070-3189-445a-8a8a-816257022543": {
-          "type": "image",
+        "0a41c512-0f88-44d5-89bc-b6f44dcdfec8": {
+          "type": "slide",
           "settings": {
             "image-high": "shopify:\/\/shop_images\/veggies_img.png",
             "title-high": "High quality ingredients",
@@ -63,7 +63,7 @@
         }
       },
       "block_order": [
-        "a957d070-3189-445a-8a8a-816257022543"
+        "0a41c512-0f88-44d5-89bc-b6f44dcdfec8"
       ],
       "settings": {
       }
