@@ -15,9 +15,11 @@
           <h3 class="title_banner_high">{{ section.settings['title-high'] }}</h3>
           <p class="text_banner_high text_none">
             {{ section.settings['text-high-block-one'] }}
+           
           </p>
           <p class="text_mobile_high">
             {{ section.settings['text-high-mobile'] }}
+            
           </p>
         </div>
       </div>
@@ -58,6 +60,7 @@
           <h3 class="title_banner_high change">{{ section.settings['title-high-block-three'] }}</h3>
           <p class="text_banner_high">
             {{ section.settings['text-high-block-three'] }}
+             {{ section.settings['autor-strong'] }}
           </p>
           <div class="logo_mobile_bagde">
             <img src="https://cdn.shopify.com/s/files/1/0746/6408/3772/files/Badge_mobile.png?v=1680892247" alt="badge_img" class="bagde_mobile_img">
@@ -82,7 +85,7 @@
       "type":"text",
       "id": "text-high-block-one",
       "label": "Text Block one"
-    },    
+    },
     {
       "type":"text",
       "id": "text-high-mobile",
@@ -112,6 +115,11 @@
       "type":"text",
       "id": "text-high-block-three",
       "label": "Text Block three"
+    },
+     {
+      "type":"text",
+      "id": "autor-strong",
+      "label": "Author"
     }
   ]
 }
