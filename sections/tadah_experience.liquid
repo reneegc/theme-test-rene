@@ -6,15 +6,18 @@
         <div class="item_experience_tadah">
           <a href="#" class="banner_experience">
             <img
-              src="https://cdn.shopify.com/s/files/1/0746/6408/3772/files/lemon_garlic_hummus_img_1.png?v=1680892271"
+              src="{{ block.settings.image}}"
               alt="lemon_garlic_hummus_img"
               class="image_experience"
             />
           </a>
-          <h3 class="title_experience">Lemon Garlic Hummus</h3>
-          <a href="#" class="link_experience">EXPERIENCE THE FLAVOR</a>
+          
+<!--               src="https://cdn.shopify.com/s/files/1/0746/6408/3772/files/lemon_garlic_hummus_img_1.png?v=1680892271" -->
+          
+<!--           <h3 class="title_experience">{{ block.settings.title }}</h3>
+          <a href="#" class="link_experience">{{ block.settings.link }}</a> -->
         </div>
-        <div class="item_experience_tadah">
+<!--         <div class="item_experience_tadah">
           <a href="#" class="banner_experience">
             <img
               src="https://cdn.shopify.com/s/files/1/0746/6408/3772/files/caramelized_harissa_img_1.png?v=1680892273"
@@ -47,14 +50,33 @@
           <h3 class="title_experience">Spiced-Sweet Harissa</h3>
           <a href="#" class="link_experience">EXPERIENCE THE FLAVOR</a>
         </div>
-      </div>
+      </div> -->
     </section>
 
 {% schema %}
-  {
-    "name": "Section Experience",
-    "settings": []
-  }
+{
+  "name": "Section Experience",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Slideshow"
+    }
+  ],
+  "blocks": [
+     {
+       "name": "Slide",
+       "type": "slide",
+       "settings": [
+         {
+           "type": "image_picker",
+           "id": "image",
+           "label": "Image"
+         }
+       ]
+     }
+   ]
+}
 {% endschema %}
 
 {% stylesheet %}
