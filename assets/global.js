@@ -16,24 +16,24 @@ equisRemove.addEventListener("click", ()=> {
     el: ".swiper-pagination",
     clickable: true,
   },
-  /* breakpoints:{
+  breakpoints:{
     620: {
-      slidesPreView: 1,
+      slidesPerView: 1,
       spaceBetween: 20,
     },
     680: {
-      slidesPreView: 2,
+      slidesPerView: 2,
       spaceBetween: 40,
     },
     920: {
-      slidesPreView: 3,
+      slidesPerView: 3,
       spaceBetween: 40,
     },
     1240: {
-      slidesPreView: 4,
+      slidesPerView: 4,
       spaceBetween: 50,
     },
-  } */
+  }
 });
 function getFocusableElements(container) {
   return Array.from(
