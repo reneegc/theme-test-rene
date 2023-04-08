@@ -51,21 +51,16 @@
     },
     "High": {
       "type": "tadah_high",
-      "blocks": {
-        "0a41c512-0f88-44d5-89bc-b6f44dcdfec8": {
-          "type": "slide",
-          "settings": {
-            "image-high": "shopify:\/\/shop_images\/veggies_img.png",
-            "title-high": "High quality ingredients",
-            "text-high": "Not to brag, but we don’t take shortcuts. We bring dried chickpeas in-house and soak them ourselves so that we can produce our homemade falafels and hummus using the most natural ingredients. Combine that with our fresh selection of bell peppers, lemons, red onions, and garlic cloves -- and you can taste the difference. We don’t cut corners, we cut fresh ingredients.",
-            "text-high-mobile": "Not to brag, but we don’t take shortcuts. We bring dried chickpeas and soak them ourselves so that we can make our falafels and hummus fresh in-house. We don’t cut corners, we cut fresh ingredients."
-          }
-        }
-      },
-      "block_order": [
-        "0a41c512-0f88-44d5-89bc-b6f44dcdfec8"
-      ],
       "settings": {
+        "title-high": "High quality ingredients",
+        "text-high-block-one": "Not to brag, but we don’t take shortcuts. We bring dried chickpeas in-house and soak them ourselves so that we can produce our homemade falafels and hummus using the most natural ingredients. Combine that with our fresh selection of bell peppers, lemons, red onions, and garlic cloves -- and you can taste the difference. We don’t cut corners, we cut fresh ingredients.",
+        "text-high-mobile": "Not to brag, but we don’t take shortcuts. We bring dried chickpeas and soak them ourselves so that we can make our falafels and hummus fresh in-house. We don’t cut corners, we cut fresh ingredients.",
+        "title-high-block-two": "A meal packed with plant-based protein",
+        "title-high-block-two-mobile": "100% plant-based protein",
+        "text-high-block-two": "At 7.5 oz our wraps are the largest in the land. With 13-16g of plant-based protein per serving plus 11g of fiber, our falafels will keep you feeling full and satisfied for longer. You won’t need another wrap – you’ll want another wrap. Take that you puny snack wraps.",
+        "title-high-block-three": "Featured in Eat This, Not That",
+        "text-high-block-three": "\"This product is rich in fiber and fully plant-based, while being made from whole food ingredients. Rich in fiber, protein, and healthy fat, it will keep you satisfied as a meal and give you all the decadent flavors you crave when dining out!\"",
+        "autor-strong": "- Amy Shapiro MS, RD, CDN"
       }
     }
   },
