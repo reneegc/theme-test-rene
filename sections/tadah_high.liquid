@@ -9,7 +9,7 @@
                   {{ block.settings.image-high | image_url: width: number | image_tag:  class: 'vaggie_high_image', loading: 'lazy' }}
           </div>
           <div class="banner_high">
-            <h3 class="title_banner_high">High quality ingredients</h3>
+            <h3 class="title_banner_high">{{ block.settings.title-high }}</h3>
             <p class="text_banner_high text_none">
               Not to brag, but we don’t take shortcuts. We bring dried chickpeas
               in-house and soak them ourselves so that we can produce our
@@ -98,6 +98,17 @@
             "type": "image_picker",
             "id" : "image-high",
             "label" : "Image"
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "name": "title",
+        "settings" : [
+          {
+            "type": "text",
+            "id" : "title-high",
+            "label" : "Title"
           }
         ]
       }
