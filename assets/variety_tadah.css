@@ -82,7 +82,7 @@
 
 @media (max-width: 490px) {
   .variety_tadah .content_variety{ 
-        padding: 0;
+        padding: 0 0 72px;
 
     }
     .variety_tadah .title_variety{
