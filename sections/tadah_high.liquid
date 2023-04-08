@@ -11,18 +11,10 @@
           <div class="banner_high">
             <h3 class="title_banner_high">{{ block.settings.title-high }}</h3>
             <p class="text_banner_high text_none">
-              Not to brag, but we don’t take shortcuts. We bring dried chickpeas
-              in-house and soak them ourselves so that we can produce our
-              homemade falafels and hummus using the most natural ingredients.
-              Combine that with our fresh selection of bell peppers, lemons, red
-              onions, and garlic cloves -- and you can taste the difference. We
-              don’t cut corners, we cut fresh ingredients.
+                {{ block.settings.text-high  }}
             </p>
             <p class="text_mobile_high">
-              Not to brag, but we don’t take shortcuts. We bring dried chickpeas
-              and soak them ourselves so that we can make our falafels and
-              hummus fresh in-house. We don’t cut corners, we cut fresh
-              ingredients.
+                {{ block.settings.text-high-mobile  }}
             </p>
           </div>
         </div>  
@@ -103,6 +95,16 @@
             "type": "text",
             "id" : "title-high",
             "label" : "Title"
+          },
+          {
+            "type": "text",
+            "id" : "text-high",
+            "label" : "Text"
+          },
+          {
+            "type": "text",
+            "id" : "text-high-mobile",
+            "label" : "Text Mobile"
           }
         ]
       }
