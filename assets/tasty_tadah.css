@@ -59,7 +59,9 @@
     justify-content: center;
     align-items: center;
   }
-
+.swiper-pagination-bullet-active {
+  background-color: #E07007 !important;
+}
 
 @media (max-width: 490px) {
     .tasty_tadah{
