@@ -2,7 +2,7 @@
 <!-- *********** chick_tadah ********* -->
 
 <section class="chick_tadah global_style">
-  <h2 class="title_chick">‘Chick’ out what people are saying</h2>
+  <h2 class="title_chick">{{ section.settings.title-chick }}</h2>
   <div class="swiper">
     <div class="swiper-wrapper">
       <div class="swiper-slide">
@@ -111,7 +111,13 @@
 {% schema %}
 {
   "name": "Section Chick",
-  "settings": []
+  "settings": [
+    {
+      "type": "text",
+      "id": "title-chick",
+      "label": "Title"
+    }
+  ]
 }
 {% endschema %}
 
