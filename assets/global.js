@@ -26,11 +26,11 @@ equisRemove.addEventListener("click", ()=> {
       spaceBetween: 40,
     },
     920: {
-      slidesPerView: 4,
+      slidesPerView: 3,
       spaceBetween: 40,
     },
     1240: {
-      slidesPerView: 4,
+      slidesPerView: 3,
       spaceBetween: 50,
     },
   }
