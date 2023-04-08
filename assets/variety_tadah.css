@@ -67,7 +67,7 @@
         max-width: none;
         object-fit: cover;
         max-height: 317px;
-        min-width: 100%;
+        width: 100%;
     }
     .variety_tadah .title_variety, .variety_tadah .text_variety{
         max-width: 90%;
