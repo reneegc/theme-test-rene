@@ -4,30 +4,43 @@
     <section class="variety_tadah global_style">
       <div class="content_variety">
         <div class="item_variety_tadah">
-          <img
-            src="https://cdn.shopify.com/s/files/1/0746/6408/3772/files/Maskgroup.png?v=1680892304"
-            alt="image_variety"
-            class="image_variety"
-          />
+           {{ section.settings.image | image_url: width: number | image_tag:  class: 'image_variety', loading: 'lazy' }}
         </div>
         <div class="item_variety_tadah">
-          <h2 class="title_variety">Variety Pack</h2>
+          <h2 class="title_variety">{{ section.settings.title-variety }}</h2>
           <p class="text_variety">
-            Sometimes you open the fridge for the fifth time in a row and find
-            yourself staring into the abyss of your fully stocked shelves.
-            You’re not bored, you’re just tired of eating boring food. You're
-            also probably indecisive like us, which is why you should order ALL
-            the flavors we have.
+           {{ section.settings.text-variety }}
           </p>
-          <a href="#" class="try_variety">Try the variety pack </a>
+          <a href="#" class="try_variety">{{ section.settings.link-variety }} </a>
         </div>
       </div>
     </section>
 {% schema %}
-  {
-    "name": "Section Variety",
-    "settings": []
-  }
+{
+  "name": "Section Variety",
+  "settings": [
+    {
+      "type": "text",
+      "id" : "title-variety",
+      "label" : "Title"
+    },
+    {
+      "type": "text",
+      "id" : "text-variety",
+      "label" : "Text"
+    },
+    {
+      "type": "text",
+      "id" : "link-variety",
+      "label" : "Link"
+    },
+    {
+       "type": "image_picker",
+       "id": "image-variery",
+       "label": "Image"
+     }
+  ]
+}
 {% endschema %}
 
 {% stylesheet %}
