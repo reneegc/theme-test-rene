@@ -56,7 +56,25 @@
 .chick_tadah .separator{
     margin-top: 20px;
 }
+.chick_tadah .swiper-wrapper{
+  justify-content: center !important;
+}
+.chick_tadah .swiper {
+    width: 100%;
+    height: 300px !important;
+  }
 
+.chick_tadah .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+.chick_tadah .swiper-pagination-bullet-active {
+  background-color: #E07007 !important;
+}
 @media (max-width: 490px) {
     .chick_tadah .title_chick{
         padding: 0 8px;
