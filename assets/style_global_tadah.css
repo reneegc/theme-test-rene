@@ -15,5 +15,7 @@ a{
 }
 
 a:hover{
-  opacity: .8;
+  background-color: #E12843;
+  color: #fff;
+  transition: all .8s;
 }
