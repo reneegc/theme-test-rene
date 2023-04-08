@@ -18,25 +18,6 @@
             </p>
           </div>
         </div>  
-
-        <div class="item_high_content">
-          <div class="banner_high_2">
-            <h3 class="title_banner_high text_none">
-              A meal packed with plant-based protein
-            </h3>
-            <h3 class="title_mobile_high">100% plant-based protein</h3>
-            <p class="text_banner_high">
-              At 7.5 oz our wraps are the largest in the land. With 13-16g of
-              plant-based protein per serving plus 11g of fiber, our falafels
-              will keep you feeling full and satisfied for longer. You won’t
-              need another wrap – you’ll want another wrap. Take that you puny
-              snack wraps.
-            </p>
-          </div>
-          <div class="banner_high_2">
-              {{ block.settings.image-high2 | image_url: width: number | image_tag:  class: 'banner_img_high', loading: 'lazy' }}
-          </div>
-        </div>
         {% endfor %}
         
       </div>
@@ -124,32 +105,6 @@
           {
             "type": "text",
             "id" : "text-high-mobile",
-            "label" : "Text Mobile"
-          }
-        ]
-      },
-      {
-        "type": "image",
-        "name": "Block Two",
-        "settings" : [
-          {
-            "type": "image_picker",
-            "id" : "image-high2",
-            "label" : "Image"
-          },
-          {
-            "type": "text",
-            "id" : "title-high2",
-            "label" : "Title"
-          },
-          {
-            "type": "text",
-            "id" : "text-high2",
-            "label" : "Text"
-          },
-          {
-            "type": "text",
-            "id" : "text-high-mobile2",
             "label" : "Text Mobile"
           }
         ]
