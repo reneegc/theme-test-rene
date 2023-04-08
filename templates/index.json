@@ -37,7 +37,7 @@
     "Variety": {
       "type": "tadah_variety",
       "settings": {
-        "title-variety": "",
+        "title-variety": "Variety Pack",
         "text-variety": "",
         "link-variety": "",
         "image-variery": "shopify:\/\/shop_images\/Maskgroup.png"
