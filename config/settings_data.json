@@ -135,8 +135,22 @@
         "settings": {
           "color_scheme": "background-1"
         }
+      },
+      "tadah_nav": {
+        "type": "tadah_nav",
+        "settings": {
+        }
+      },
+      "tadah_footer": {
+        "type": "tadah_footer",
+        "settings": {
+          "title-footer": "FalaFULL of flavor"
+        }
       }
-    }
+    },
+    "content_for_index": [
+
+    ]
   },
   "presets": {
     "Default": {
