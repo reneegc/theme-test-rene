@@ -10,27 +10,27 @@ equisRemove.addEventListener("click", ()=> {
     navBarMobile.classList.remove("mobile_nav_bar_active")
 })
  var swiper = new Swiper(".swiper", {
-  spaceBetween: 100,
+  spaceBetween: 30,
   loop: true,
   pagination: {
     el: ".swiper-pagination",
     clickable: true,
   },
-  // breakpoints:{
-  //   620: {
-  //     slidesPerView: 1,
-  //     spaceBetween: 20,
-  //   },
-  //   920: {
-  //     slidesPerView: 2,
-  //     spaceBetween: 40,
+  breakpoints:{
+    620: {
+      slidesPerView: 1,
+      spaceBetween: 20,
+    },
+    920: {
+      slidesPerView: 2,
+      spaceBetween: 40,
 
-  //   },
-  //   1240: {
-  //     slidesPerView: 3,
-  //     spaceBetween: 50,
-  //   },
-  // }
+    },
+    1240: {
+      slidesPerView: 3,
+      spaceBetween: 50,
+    },
+  }
 });
 function getFocusableElements(container) {
   return Array.from(
