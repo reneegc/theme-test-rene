@@ -66,7 +66,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0 39px;
+    margin: 0 39px !important;
   }
 .chick_tadah .swiper-pagination-bullet-active {
   background-color: #E07007 !important;
