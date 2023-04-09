@@ -49,6 +49,10 @@
     background-color: #2E190F;
     color: #fff;
 }
+.experience_tadah .link_experience:hover{
+  background-color: #ffdd00;
+  transition: all .8s;
+}
 
 @media (max-width: 1080px) {
     .experience_tadah .item_experience_tadah{
