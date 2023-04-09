@@ -47,7 +47,7 @@
   justify-content: center !important;
 }
 .tasty_tadah .swiper {
-    width: 800px !important;
+    width: 100%;
     height: 300px !important;
     background: red !important;
   }
