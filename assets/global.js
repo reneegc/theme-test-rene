@@ -17,7 +17,7 @@ var swiper = new Swiper(".swiper", {
       freeMode: true,
   loop: true,
   pagination: {
-    /* el: ".swiper-pagination", */
+    el: ".swiper-pagination",
     clickable: true,
   },
 })
