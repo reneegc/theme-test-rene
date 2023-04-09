@@ -46,11 +46,11 @@
 .tasty_tadah .swiper-wrapper{
   justify-content: center !important;
 }
-.tasty_tadah .swiper {
+/* .tasty_tadah .swiper {
     width: 100%;
     height: 300px !important;
     background: red !important;
-  }
+  } */
 
 .tasty_tadah .swiper-slide {
     text-align: center;
