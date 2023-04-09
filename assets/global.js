@@ -10,8 +10,7 @@ equisRemove.addEventListener("click", ()=> {
     navBarMobile.classList.remove("mobile_nav_bar_active")
 })
  var swiper = new Swiper(".swiper", {
-  spaceBetween: 30,
-   direction: 'horizontal',
+  spaceBetween: 100,
   loop: true,
   pagination: {
     el: ".swiper-pagination",
