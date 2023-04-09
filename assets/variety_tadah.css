@@ -47,10 +47,11 @@
     letter-spacing: 0em;
     text-align: center;
     color:#2E190F;
-
-
-    
-    
+}
+.variety_tadah .try_variety:hover{
+    background-color: #000;
+    color: #fff;
+    transition: all .8s;
 }
 @media (max-width: 1140px) {
     .variety_tadah .content_variety{ 
