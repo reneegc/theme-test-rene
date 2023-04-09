@@ -19,8 +19,8 @@ equisRemove.addEventListener("click", ()=> {
   },
   /* breakpoints:{
     620: {
-      slidesPerView: 1,
-      spaceBetween: 10,
+      slidesPerView: 2,
+      spaceBetween: 3,
     },
     920: {
       slidesPerView: 2,
@@ -31,7 +31,7 @@ equisRemove.addEventListener("click", ()=> {
       slidesPerView: 3,
       spaceBetween: 10,
     },
-  } */
+  }  */
 });
 function getFocusableElements(container) {
   return Array.from(
