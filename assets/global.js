@@ -11,7 +11,7 @@ equisRemove.addEventListener("click", ()=> {
 })
  var swiper = new Swiper(".swiper", {
   spaceBetween: 30,
-   direction: 'vertical',
+   direction: 'horizontal',
   loop: true,
   pagination: {
     el: ".swiper-pagination",
