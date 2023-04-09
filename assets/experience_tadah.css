@@ -53,6 +53,7 @@
   background-color: #e1ca35;
   transition: all .8s;
   color: #000;
+  border: 2px solid #000;
 }
 
 @media (max-width: 1080px) {
