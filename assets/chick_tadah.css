@@ -40,10 +40,6 @@
     justify-content: center;
 }
 
-.chick_tadah .separator_chick{
-    margin: 0 78px 0;
-}
-
 .chick_tadah .autor_description{
     font-size: 14px;
     font-weight: 700;
@@ -70,6 +66,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0 39px;
   }
 .chick_tadah .swiper-pagination-bullet-active {
   background-color: #E07007 !important;
