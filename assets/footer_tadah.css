@@ -42,6 +42,11 @@
     margin-top: 20px;
     margin-bottom: 52px;
 }
+.footer_tadah .try_footer:hover{
+    background-color: #000;
+    color: #fff;
+    transition: all .8s;
+}
 
 .footer_tadah .social_network{
     display: flex;
