@@ -17,6 +17,42 @@
     },
     "Experience": {
       "type": "tadah_experience",
+      "blocks": {
+        "78169f88-6169-4701-8e79-f80f87511344": {
+          "type": "slide",
+          "settings": {
+            "text-flavor": "Lemon Garlic Hummus",
+            "flavor-experience": "shopify:\/\/shop_images\/lemon_garlic_hummus_img_1.png"
+          }
+        },
+        "b1bf3aa4-7887-4e10-b4cd-e05de6121811": {
+          "type": "slide",
+          "settings": {
+            "text-flavor": "Caramelized Harissa",
+            "flavor-experience": "shopify:\/\/shop_images\/caramelized_harissa_img_1.png"
+          }
+        },
+        "45ea2e92-fee7-44b7-b6ec-5a06cbe3f269": {
+          "type": "slide",
+          "settings": {
+            "text-flavor": "Garden Veggie Feta",
+            "flavor-experience": "shopify:\/\/shop_images\/garden_veggie_feta_img_1.png"
+          }
+        },
+        "ace55017-4f5a-49dd-a18b-f1486203cd17": {
+          "type": "slide",
+          "settings": {
+            "text-flavor": "Spiced-Sweet Harissa",
+            "flavor-experience": "shopify:\/\/shop_images\/spicedsweet_harissa_img_1.png"
+          }
+        }
+      },
+      "block_order": [
+        "78169f88-6169-4701-8e79-f80f87511344",
+        "b1bf3aa4-7887-4e10-b4cd-e05de6121811",
+        "45ea2e92-fee7-44b7-b6ec-5a06cbe3f269",
+        "ace55017-4f5a-49dd-a18b-f1486203cd17"
+      ],
       "settings": {
       }
     },
