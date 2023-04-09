@@ -48,7 +48,7 @@
 }
 
 .tasty_tadah .swiper {
-    width: 100%;
+    width: 100% !important;
     height: 300px !important;
     background: red !important;
   }
