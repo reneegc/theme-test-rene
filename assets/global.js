@@ -19,11 +19,11 @@ equisRemove.addEventListener("click", ()=> {
   },
   breakpoints:{
     620: {
-      slidesPerView: 2,
-      spaceBetween: 3,
+      slidesPerView: 1,
+      spaceBetween: 10,
     },
     920: {
-      slidesPerView: 2,
+      slidesPerView: 3,
       spaceBetween: 10,
 
     },
