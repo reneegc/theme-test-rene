@@ -9,30 +9,7 @@ btnBurguer.addEventListener("click", ()=> {
 equisRemove.addEventListener("click", ()=> {
     navBarMobile.classList.remove("mobile_nav_bar_active")
 })
- var swiper = new Swiper(".swiper", {
-  spaceBetween: 30,
-   direction: 'horizontal',
-  loop: true,
-  pagination: {
-    el: ".swiper-pagination",
-    clickable: true,
-  },
-  /* breakpoints:{
-    620: {
-      slidesPerView: 2,
-      spaceBetween: 3,
-    },
-    920: {
-      slidesPerView: 2,
-      spaceBetween: 10,
 
-    },
-    1024: {
-      slidesPerView: 3,
-      spaceBetween: 10,
-    },
-  }  */
-});
 function getFocusableElements(container) {
   return Array.from(
     container.querySelectorAll(
