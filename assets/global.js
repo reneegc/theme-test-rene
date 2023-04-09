@@ -12,7 +12,7 @@ equisRemove.addEventListener("click", ()=> {
 
 var swiper = new Swiper(".swiper", {
   spacecenteredSlides: true,
-  Between: 10,
+ /*  Between: 10, */
   slidesPerView: 'auto',
       freeMode: true,
   loop: true,
