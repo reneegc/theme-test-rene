@@ -15,7 +15,7 @@ equisRemove.addEventListener("click", ()=> {
   loop: true,
   pagination: {
     el: ".swiper-pagination",
-    clickable: true,
+   /*  clickable: true, */
   },
   /* breakpoints:{
     620: {
