@@ -40,8 +40,7 @@
     justify-content: center;
 }
 
-.chick_tadah .description_chick:nth-child(2){
-    padding: 0 50px;
+.chick_tadah .separator_chick{
     margin: 0 78px 0;
 }
 
