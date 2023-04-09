@@ -10,23 +10,22 @@ equisRemove.addEventListener("click", ()=> {
     navBarMobile.classList.remove("mobile_nav_bar_active")
 })
 
-var swiper = new Swiper(".swiper", {
-  spacecenteredSlides: true,
- /*  Between: 10, */
-  slidesPerView: 'auto',
-      freeMode: true,
-  loop: true,
-  pagination: {
-    el: ".swiper-pagination",
-    /* clickable: true, */
-            dynamicBullets: true,
+// var swiper = new Swiper(".swiper", {
+//   spacecenteredSlides: true,
+//  /*  Between: 10, */
+//   slidesPerView: 'auto',
+//       freeMode: true,
+//   loop: true,
+//   pagination: {
+//     el: ".swiper-pagination",
+//     /* clickable: true, */
+//             dynamicBullets: true,
 
-  },
-})
+//   },
+// })
   
-/*  var swiper = new Swiper(".swiper", {
-  spaceBetween: 100,
-  loop: true,
+var swiper = new Swiper(".swiper", {
+  spaceBetween: 30,
   pagination: {
     el: ".swiper-pagination",
     clickable: true,
@@ -46,7 +45,7 @@ var swiper = new Swiper(".swiper", {
       spaceBetween: 10,
     },
   } 
-}); */
+});
 function getFocusableElements(container) {
   return Array.from(
     container.querySelectorAll(
