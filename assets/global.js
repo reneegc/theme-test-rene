@@ -15,7 +15,7 @@ equisRemove.addEventListener("click", ()=> {
   pagination: {
     el: ".swiper-pagination",
     clickable: true,
-  }
+  },
   // breakpoints:{
   //   620: {
   //     slidesPerView: 1,
@@ -30,7 +30,7 @@ equisRemove.addEventListener("click", ()=> {
   //     slidesPerView: 3,
   //     spaceBetween: 50,
   //   },
-  }
+  // }
 });
 function getFocusableElements(container) {
   return Array.from(
