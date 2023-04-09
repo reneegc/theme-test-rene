@@ -10,7 +10,7 @@ equisRemove.addEventListener("click", ()=> {
     navBarMobile.classList.remove("mobile_nav_bar_active")
 })
 
-var swiper = new Swiper(".swiper", {
+var swiper = new Swiper(".swiper1", {
   spacecenteredSlides: true,
  /*  Between: 10, */
   slidesPerView: 'auto',
