@@ -47,11 +47,10 @@
   justify-content: center !important;
 }
 
-/* .tasty_tadah .swiper {
+.tasty_tadah .swiper {
     width: 100% !important;
-    height: 100% !important;
-    background: red !important;
-  } */
+    height: 400px !important;
+  }
 
 .tasty_tadah .swiper-slide {
       text-align: center;
